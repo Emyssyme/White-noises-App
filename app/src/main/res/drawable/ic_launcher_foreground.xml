@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Soft Ambient Aura behind Moon -->
+    <path android:pathData="M58,22 C35,21 29,52 50,60 C38,52 40,29 58,22 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:centerX="44"
+                android:centerY="41"
+                android:gradientRadius="22"
+                android:type="radial">
+                <item android:offset="0.0" android:color="#90818CF8" />
+                <item android:offset="1.0" android:color="#00818CF8" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Luminous Crescent Moon -->
+    <path android:pathData="M58,24 C37,23 31,52 51,59 C41,52 42,31 58,24 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="32"
+                android:startY="24"
+                android:endX="58"
+                android:endY="59"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#FFFFFFFF" />
+                <item android:offset="0.4" android:color="#FFE0E7FF" />
+                <item android:offset="1.0" android:color="#FF818CF8" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Serene Sound Wave 1 (Upper Wave / Sky Blue) -->
+    <path
+        android:pathData="M24,61 C31,61 34,56 39,56 C45,56 47,65 53,65 C59,65 62,56 68,56 C73,56 76,61 82,61"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round">
+        <aapt:attr name="android:strokeColor">
+            <gradient
+                android:startX="24"
+                android:startY="60"
+                android:endX="82"
+                android:endY="60"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#0038BDF8" />
+                <item android:offset="0.2" android:color="#FF38BDF8" />
+                <item android:offset="0.8" android:color="#FF2DD4BF" />
+                <item android:offset="1.0" android:color="#002DD4BF" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Serene Sound Wave 2 (Middle Main Wave / Indigo Glow) -->
+    <path
+        android:pathData="M20,69 C27,69 30,61 36,61 C43,61 46,76 53,76 C60,76 63,61 70,61 C76,61 79,69 86,69"
+        android:strokeWidth="3"
+        android:strokeLineCap="round">
+        <aapt:attr name="android:strokeColor">
+            <gradient
+                android:startX="20"
+                android:startY="68"
+                android:endX="86"
+                android:endY="68"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#00818CF8" />
+                <item android:offset="0.15" android:color="#FF818CF8" />
+                <item android:offset="0.5" android:color="#FFE0E7FF" />
+                <item android:offset="0.85" android:color="#FF818CF8" />
+                <item android:offset="1.0" android:color="#00818CF8" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Serene Sound Wave 3 (Lower Wave / Soft Teal Sky) -->
+    <path
+        android:pathData="M26,76 C32,76 35,72 40,72 C46,72 48,79 54,79 C60,79 62,72 67,72 C72,72 75,76 80,76"
+        android:strokeWidth="2"
+        android:strokeLineCap="round">
+        <aapt:attr name="android:strokeColor">
+            <gradient
+                android:startX="26"
+                android:startY="75"
+                android:endX="80"
+                android:endY="75"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#002DD4BF" />
+                <item android:offset="0.25" android:color="#C02DD4BF" />
+                <item android:offset="0.75" android:color="#C038BDF8" />
+                <item android:offset="1.0" android:color="#0038BDF8" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Star Sparkle 1 (Upper Right) -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M68,26 Q68,30 72,30 Q68,30 68,34 Q68,30 64,30 Q68,30 68,26 Z" />
+
+    <!-- Star Sparkle 2 (Upper Left / Soft Lavender) -->
+    <path
+        android:fillColor="#FFE0E7FF"
+        android:pathData="M32,32 Q32,35 35,35 Q32,35 32,38 Q32,35 29,35 Q32,35 32,32 Z" />
+
+    <!-- Star Sparkle 3 (Mid Right) -->
+    <path
+        android:fillColor="#FFBAE6FD"
+        android:pathData="M76,44 Q76,47 79,47 Q76,47 76,50 Q76,47 73,47 Q76,47 76,44 Z" />
+
+    <!-- Ambient Sound Dust / Floating Star Particles -->
+    <path
+        android:fillColor="#FFE0E7FF"
+        android:pathData="M35,50a1,1 0 1,0 2,0a1,1 0 1,0 -2,0" />
+    <path
+        android:fillColor="#FFBAE6FD"
+        android:pathData="M70.8,58a1.2,1.2 0 1,0 2.4,0a1.2,1.2 0 1,0 -2.4,0" />
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M27.2,42a0.8,0.8 0 1,0 1.6,0a0.8,0.8 0 1,0 -1.6,0" />
+    <path
+        android:fillColor="#FFA5B4FC"
+        android:pathData="M79,36a1,1 0 1,0 2,0a1,1 0 1,0 -2,0" />
+</vector>

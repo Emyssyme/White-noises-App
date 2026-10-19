@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">White Noises</string>
+    <string name="notification_channel_name">White Noise Playback</string>
+    <string name="notification_channel_description">Playback controls and notification for active white noise sound</string>
+</resources>

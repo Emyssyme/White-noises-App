@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Deep Night Sky Base with Gradient -->
+    <path android:pathData="M0,0h108v108h-108z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="0"
+                android:startY="0"
+                android:endX="108"
+                android:endY="108"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#FF090D16" /> <!-- Darkest Midnight -->
+                <item android:offset="0.5" android:color="#FF0F172A" /> <!-- Soothing Slate Navy -->
+                <item android:offset="1.0" android:color="#FF1E293B" /> <!-- Night Slate -->
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Radial Soft Ambient Glow behind central icon elements -->
+    <path android:pathData="M0,0h108v108h-108z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:centerX="54"
+                android:centerY="46"
+                android:gradientRadius="48"
+                android:type="radial">
+                <item android:offset="0.0" android:color="#3D818CF8" /> <!-- Soft Indigo Glow -->
+                <item android:offset="0.65" android:color="#1238BDF8" /> <!-- Soft Sky Blue Glow -->
+                <item android:offset="1.0" android:color="#00000000" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Background Stars and Night Dust -->
+    <path
+        android:fillColor="#4DFFFFFF"
+        android:pathData="M16,18a1,1 0 1,1 -2,0a1,1 0 1,1 2,0 M92,22a1,1 0 1,1 -2,0a1,1 0 1,1 2,0 M88,88a1,1 0 1,1 -2,0a1,1 0 1,1 2,0 M20,86a1,1 0 1,1 -2,0a1,1 0 1,1 2,0 M52,14a1,1 0 1,1 -2,0a1,1 0 1,1 2,0 M96,52a1,1 0 1,1 -2,0a1,1 0 1,1 2,0 M12,50a1,1 0 1,1 -2,0a1,1 0 1,1 2,0" />
+    <path
+        android:fillColor="#26FFFFFF"
+        android:pathData="M34,16a0.75,0.75 0 1,1 -1.5,0a0.75,0.75 0 1,1 1.5,0 M76,14a0.75,0.75 0 1,1 -1.5,0a0.75,0.75 0 1,1 1.5,0 M82,68a0.75,0.75 0 1,1 -1.5,0a0.75,0.75 0 1,1 1.5,0 M26,68a0.75,0.75 0 1,1 -1.5,0a0.75,0.75 0 1,1 1.5,0 M66,92a0.75,0.75 0 1,1 -1.5,0a0.75,0.75 0 1,1 1.5,0 M40,94a0.75,0.75 0 1,1 -1.5,0a0.75,0.75 0 1,1 1.5,0" />
+</vector>
